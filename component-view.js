@@ -3,13 +3,13 @@ const client = ZoomMtgEmbedded.createClient()
 let meetingSDKElement = document.getElementById('meetingSDKElement')
 
 // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
-var signatureEndpoint = 'https://yckfd07uph.execute-api.us-east-1.amazonaws.com/latest'
-var sdkKey = 'PfPapLCavJc2ZBjMkssNeqboLdBOpoAEXQTc'
-var meetingNumber = '99617077912'
+var signatureEndpoint = 'https://ybami8c770.execute-api.us-east-1.amazonaws.com/latest'
+var sdkKey = 'XgkIvvHHyAK9na3ZPQVuB8fSU8T3kKghPSWR'
+var meetingNumber = '99223103673'
 var role = 1
 var userName = 'UserJS'
 var userEmail = ''
-var passWord = '123'
+var passWord = ''
 // pass in the registrant's token if your meeting or webinar requires registration. More info here:
 // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/component-view/meetings#join-meeting-with-registration-required
 // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/component-view/webinars#join-webinar-with-registration-required
