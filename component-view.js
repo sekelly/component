@@ -6,9 +6,9 @@ let meetingSDKElement = document.getElementById('meetingSDKElement')
 var signatureEndpoint = 'https://ybami8c770.execute-api.us-east-1.amazonaws.com/latest'
 var sdkKey = 'EStDoqGOS6NYeFGHIX_qA'
 var meetingNumber = '97150709574'
-var role = 1
+var role = 0
 var disablePreview = 'false'
-var userName = 'Max'
+var userName = 'Component'
 var userEmail = 'madmax@kelmagaoay.com'
 var passWord = '123'
 // pass in the registrant's token if your meeting or webinar requires registration. More info here:
