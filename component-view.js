@@ -3,9 +3,9 @@ const client = ZoomMtgEmbedded.createClient()
 let meetingSDKElement = document.getElementById('meetingSDKElement')
 
 // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
-var signatureEndpoint = 'https://meetingsdk-auth-endpoint-sample-production-21b6.up.railway.app'
-var sdkKey = 'EStDoqGOS6NYeFGHIX_qA'
-var meetingNumber = '97150709574'
+var signatureEndpoint = 'https://meetingsdk-sample-signature-node-js-iota.vercel.app/'
+var sdkKey = 'PfPapLCavJc2ZBjMkssNeqboLdBOpoAEXQTc'
+var meetingNumber = '95160050210'
 var role = 1
 var userName = 'Component'
 var userEmail = 'madmax@kelmagaoay.com'
@@ -13,7 +13,7 @@ var passWord = '123'
 // pass in the registrant's token if your meeting or webinar requires registration. More info here:
 // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/component-view/meetings#join-meeting-with-registration-required
 // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/component-view/webinars#join-webinar-with-registration-required
-var registrantToken = '7YSlcuU2b174wkJAjHvnhIVBRthvhFQnsPimWiqjiq0.DQcAAAATt_8ZOxZQMHQ5NXo1MFQ1TzZYczkwYVBWcXdnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=iXwcQPrqlBGhimrDLYLNr6yaEwOwSu.1'
+// var registrantToken = '7YSlcuU2b174wkJAjHvnhIVBRthvhFQnsPimWiqjiq0.DQcAAAATt_8ZOxZQMHQ5NXo1MFQ1TzZYczkwYVBWcXdnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=iXwcQPrqlBGhimrDLYLNr6yaEwOwSu.1'
 
 client.init({
   zoomAppRoot: meetingSDKElement,
