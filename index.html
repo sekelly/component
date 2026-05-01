@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Life Coach1</title>
-    
-
-    <!-- For Client View -->
-    <link type="text/css" rel="stylesheet" href="https://source.zoom.us/3.13.0/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="https://source.zoom.us/3.13.0/css/react-select.css" />
-
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Origin Trials to enable Gallery View in Chrome/Edge -->
-    <script src="coi-serviceworker.js"></script>
-    <!-- More Info: https://marketplace.zoom.us/docs/sdk/overview/improve-performance -->
-    <!-- SharedArrayBuffers in non-isolated pages on Desktop platforms -->
-    <meta http-equiv="origin-trial" content="AkBC6T2NnosY6N71LXXA09Q1GMiLzuHuOKpC9SwfbPxzoxr2PMOM2uHZmAxIFqq+dCvUD/4kPoylRZ4G5YCkow8AAAB7eyJvcmlnaW4iOiJodHRwczovL3Nla2VsbHkuZ2l0aHViLmlvOjQ0MyIsImZlYXR1cmUiOiJVbnJlc3RyaWN0ZWRTaGFyZWRBcnJheUJ1ZmZlciIsImV4cGlyeSI6MTcwOTg1NTk5OSwiaXNTdWJkb21haW4iOnRydWV9">
+    <meta charset="utf-8" />
+    <title>Web SDK 6.0.0 Component View</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-    <style>
-    body {
-       background-color: rgb(105, 184, 233);
-       background-image: url('https://zoom.us/account/branding/p/b7f37763-6dee-4be3-8c55-cda5ba5c7310.gif');
-    }
-  </style>
   <body>
-
     <main>
-      <h1>Life Coach</h1>
+      <h1>Web SDK 6.0.0 Component View</h1>
 
       <!-- For Component View -->
       <div id="meetingSDKElement">
         <!-- Zoom Meeting SDK Rendered Here -->
       </div>
 
-      <button onClick="getSignature()">Join Coach</button>
+      <button onClick="getSignature()">Join Meeting</button>
     </main>
 
-    <!-- For Component and Client View -->
+    <!-- Dependencies for client view and component view -->
     <script src="https://source.zoom.us/6.0.0/lib/vendor/react.min.js"></script>
     <script src="https://source.zoom.us/6.0.0/lib/vendor/react-dom.min.js"></script>
     <script src="https://source.zoom.us/6.0.0/lib/vendor/redux.min.js"></script>
@@ -44,12 +25,11 @@
     <script src="https://source.zoom.us/6.0.0/lib/vendor/lodash.min.js"></script>
 
     <!-- For Client View -->
-    <!-- script src="https://source.zoom.us/zoom-meeting-3.13.0.min.js"></script -->
-    <!-- script type="text/javascript" src="client-view.js"></script -->
+    <!-- <script src="https://source.zoom.us/zoom-meeting-6.0.0.min.js"></script>
+    <!<script type="text/javascript" src="client-view.js"></script>
 
-    <!-- For Component View -->
-    <script src="https://source.zoom.us/6.0.0/zoom-meeting-embedded-6.0.0.min.js"></script> 
+    <!For Component View -->
+    <script src="https://source.zoom.us/6.0.0/zoom-meeting-embedded-6.0.0.min.js"></script>
     <script type="text/javascript" src="component-view.js"></script>
-
   </body>
 </html>
